@@ -1,5 +1,23 @@
 {
-    "devDependencies": {
-        "cypress": "^3.3.1"
-    }
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  },
+  "name": "shopping",
+  "description": "Using CypressIO to automate shopping as new person on konga.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-am-sanguine/shopping.git"
+  },
+  "author": "Ademola Bhadmus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-am-sanguine/shopping/issues"
+  },
+  "homepage": "https://github.com/i-am-sanguine/shopping#readme"
 }
