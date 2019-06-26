@@ -27,7 +27,7 @@ context('Create a guest journey on konga', () => {
         cy.get('[href="/product/avia-running-shoes-3653998"] > picture > ._206b4_1rr8y').click()
 
         //Verify that 'Free Shipping' is visible
-        cy.get('.a9177_3to7g').contains('Free Shipping').should('be.visible')
+        cy.get('#app-content-wrapper > div.c6dfe_HidJc > div._0863a_3x99A > div._050ef_K0hT7 > div > div.d9549_IlL3h > div._8f9c3_230YI._47f1e_1dZrT > div._680e2_KPkEz > div > form > div._3924b_1USC3._16f96_38E1t > div.ec08a_3E-1r > span.a9177_3to7g').contains('Free Shipping').should('be.visible')
 
        //Verify that 'Sold by' is visible
         cy.get('._835ed_2kqSg > span').contains('Sold by').should('be.visible')
@@ -55,4 +55,3 @@ context('Create a guest journey on konga', () => {
     })
   
   })
-  
