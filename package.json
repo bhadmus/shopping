@@ -1,14 +1,13 @@
 {
   "devDependencies": {
+    "lodash": ">=4.17.13",
     "cypress": "^3.3.1"
   },
   "name": "shopping",
   "description": "Using CypressIO to automate shopping as new person on konga.com",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
-    "lodash": ">=4.17.13"
-  },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
